@@ -23,3 +23,18 @@ div {
     margin-bottom: 20px;
     position: relative;
 }
+
+
+div:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 3px solid #ddd;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}

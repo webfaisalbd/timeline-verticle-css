@@ -38,3 +38,16 @@ div:before {
     top: 10px;
     left: -40px;
 }
+
+
+div:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ddd transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    top: 10px;
+    left: -17px;
+}

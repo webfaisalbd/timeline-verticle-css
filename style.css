@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #131f33;
+}
+
+.timeline-area {
+    margin: 90px auto;
+    width: 360px;
+    padding: 0 20px 0 30px;
+    border-left: 2px solid #ccc;
+}
